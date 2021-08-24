@@ -1,0 +1,30 @@
+.text-hide {
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+}
+
+.nav-scroller {
+    height: 2.75rem;
+    overflow: hidden;
+    border-bottom: 1px solid #C0A4A5;
+  }
+  .nav-scroller .nav {
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    justify-content: center;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .nav-link {
+    color: #C0A4A5;
+    position: relative;
+    border: 1px solid #C0A4A5;
+    border-radius: 15px;
+    &:hover {
+      opacity: 0.7;
+      &::before{
+        width: 100%;
+      }
+    }
+  }
