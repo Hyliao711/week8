@@ -268,6 +268,7 @@ $spacers: (
   10: $spacer * 2.5,/* 40 */
   11: $spacer * 2.75,/* 44 */
   12: $spacer * 3,/* 48 */
+  16: $spacer * 4,/* 64 */
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -299,7 +300,7 @@ $body-text-align:           null !default;
 // Style anchor elements.
 
 $link-color:                              $primary !default;
-$link-decoration:                         underline !default;
+$link-decoration:                         none !default;
 $link-shade-percentage:                   20% !default;
 $link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
 $link-hover-decoration:                   null !default;

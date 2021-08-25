@@ -7,3 +7,77 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.logo2 {
+    width: 96px;
+    height: 31px;
+    display: block;
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/DOYOGA.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner {
+    height: 582px;
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/photo-1612157777902-5382bc6e864b.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 95%;
+}
+
+.card__ {
+    &1 {
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/photo-1593810450967-f9c42742e326.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 95%;
+        height: 420px;
+        border-radius: 20px;
+        @include media-breakpoint-up(md) {
+            height: 252px;
+        }
+        @include media-breakpoint-up(lg) {
+            height: 420px;
+        }
+    }
+    &2 {
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/photo-1593810451137-5dc55105dace.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 95%;
+        height: 420px;
+        border-radius: 20px;
+        @include media-breakpoint-up(md) {
+            height: 252px;
+        }
+        @include media-breakpoint-up(lg) {
+            height: 420px;
+        }
+    }
+    &3 {
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 95%;
+        height: 420px;
+        border-radius: 20px;
+        @include media-breakpoint-up(md) {
+            height: 252px;
+        }
+        @include media-breakpoint-up(lg) {
+            height: 420px;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .ml-off {
+        margin-left: -60px;
+      }
+}
+@include media-breakpoint-up(lg) {
+    .ml-off {
+        margin-left: -95px;
+      }
+}
