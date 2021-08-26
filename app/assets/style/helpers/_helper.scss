@@ -33,3 +33,30 @@
     max-width: 350px;
 }
 
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-scroller {
+  height: 250px;  /* 隱藏下方捲軸 */
+  overflow-y: hidden; 
+  border-bottom: 0px;
+}
+.nav-scroller .nav {
+  flex-wrap: nowrap;
+  padding-bottom: 1rem; /* 隱藏下方捲軸 */
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+
+
+
+
