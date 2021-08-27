@@ -67,6 +67,10 @@ body {
   height: 39.25rem;
 }
 
+.radius-2 {
+  border-radius: 1rem;
+}
+
 .card {
   border-radius: 1rem;
 }
@@ -137,6 +141,47 @@ body {
 
 .me-30 {
   margin-right: 30px;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  color: #907A7B;
+  background-color: #F5F0E7;
+  border: 0px;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: #FFFFFF !important;
+  background-color: #c0a4a5;
+  border-color: #c0a4a5;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #FFFFFF !important;
+  background-color: #907A7B;
+  border-color: #c0a4a5;
+}
+
+.page-item:first-child .page-link {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.page-item:last-child .page-link {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.h6-w {
+  width: 168px;
 }
 
 .text-hide {
