@@ -84,6 +84,15 @@
 .w-xxs {
     width: 65px;
 }
+.w-modal {
+    max-width: 500px;
+}
+.w-tabel {
+    width: 920px;
+}
+.h-sm {
+    height: 418px;
+}
 .arrow {
     font-size: 33px;
 }
@@ -137,8 +146,42 @@
 .card-header:first-child {
     border-radius: calc(1rem - 1px) calc(1rem - 1px) 0 0;
 }
+.card-image{
+    width: 96px; 
+    height: 96px; 
+    object-fit: cover;
+}
+.card-image-modal{
+    width: 165px; 
+    height: 165px; 
+    object-fit: cover;
+    @include media-breakpoint-up(md) {
+        width: 264px; 
+        height: 418px; 
+    }
+    @include media-breakpoint-up(lg) {
+        width: 418px; 
+        height: 418px; 
+    }
+}
 .start-18 {
     left: 18%;
 }
 
+@include media-breakpoint-up(md) {
+    .ml-off {
+        margin-left: -60px;
+    }
+}
+@include media-breakpoint-up(lg) {
+    .ml-off {
+        margin-left: -95px;
+    }
+    .ml-off-2 {
+        margin-left: -95px;
+    }
+    .mr-off {
+        margin-right: 95px;
+    }
+}
 

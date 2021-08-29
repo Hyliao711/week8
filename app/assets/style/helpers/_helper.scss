@@ -55,6 +55,25 @@
   overflow-x: auto;
   white-space: nowrap;
 }
-
+.nav-scroller-2 {
+  height: 468px;  /* 隱藏下方捲軸 */
+  overflow-y: hidden; 
+  border-bottom: 0px;
+}
+.nav-scroller-2 .nav {
+  flex-wrap: nowrap;
+  padding-bottom: 10px; /* 隱藏下方捲軸 */
+  overflow-x: auto;
+}
+.modal-dialog {
+  max-width: 500px;
+  margin: 1.75rem auto;
+  @include media-breakpoint-up(md) {
+    max-width: 690px;
+  }
+  @include media-breakpoint-up(lg) {
+    max-width: 920px;
+  }
+}
 
 

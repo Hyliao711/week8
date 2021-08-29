@@ -83,6 +83,20 @@
             height: 444px;
         }
     }
+    &4_2 {
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/carl-barcelo-nqUHQkuVj3c-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 95%;
+        height: 196px;
+        border-radius: 16px;
+        @include media-breakpoint-up(md) {
+            height: 150px;
+        }
+        @include media-breakpoint-up(lg) {
+            height: 196px;
+        }
+    }
     &5 {
         background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/white%20round%20table%20near%20brown%20wooden%20chair.jpg");
         background-size: cover;
@@ -137,8 +151,7 @@
             height: 150px;
         }
         @include media-breakpoint-up(lg) {
-            width: 445px;
-            height: 445px;
+            height: 196px;
         }
     }
     &8 {
@@ -156,6 +169,20 @@
             height: 445px;
         }
     }
+    &8_2 {
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 95%;
+        height: 196px;
+        border-radius: 16px;
+        @include media-breakpoint-up(md) {
+            height: 150px;
+        }
+        @include media-breakpoint-up(lg) {
+            height: 196px;
+        }
+    }
     &9 {
         background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/woman%20in%20black%20sports%20bra%20and%20black%20leggings%20doing%20yoga.jpg");
         background-size: cover;
@@ -169,6 +196,20 @@
         @include media-breakpoint-up(lg) {
             width: 445px;
             height: 445px;
+        }
+    }
+    &9_2 {
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/woman%20in%20black%20sports%20bra%20and%20black%20leggings%20doing%20yoga.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 95%;
+        height: 196px;
+        border-radius: 16px;
+        @include media-breakpoint-up(md) {
+            height: 150px;
+        }
+        @include media-breakpoint-up(lg) {
+            height: 196px;
         }
     }
     &10 {
@@ -186,6 +227,20 @@
             height: 445px;
         }
     }
+    &10_2 {
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/woman%20in%20white%20tank%20top%20and%20white%20leggings%20bending%20her%20body.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        height: 196px;
+        border-radius: 16px;
+        @include media-breakpoint-up(md) {
+            height: 150px;
+        }
+        @include media-breakpoint-up(lg) {
+            height: 196px;
+        }
+    }
     &11 {
         background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/photo-1540206276207-3af25c08abc4.jpeg");
         background-size: cover;
@@ -201,20 +256,50 @@
             height: 100%;
         }
     }
+    &12_2 {
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/two%20woman%20dong%20fitness%20exercise.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 95%;
+        height: 196px;
+        border-radius: 16px;
+        @include media-breakpoint-up(md) {
+            height: 150px;
+        }
+        @include media-breakpoint-up(lg) {
+            height: 196px;
+        }
+    }
+    &13_2 {
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/woman%20doing%20yoga.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        height: 196px;
+        border-radius: 16px;
+        @include media-breakpoint-up(md) {
+            height: 150px;
+        }
+        @include media-breakpoint-up(lg) {
+            height: 196px;
+        }
+    }
+    &14_2 {
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/woman%20in%20white%20tank%20top%20and%20white%20pants%20bending%20her%20body%20by%20the%20window.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 35%;
+        height: 196px;
+        border-radius: 16px;
+        @include media-breakpoint-up(md) {
+            height: 150px;
+        }
+        @include media-breakpoint-up(lg) {
+            height: 196px;
+        }
+    }
 }
 
-
-
-@include media-breakpoint-up(md) {
-    .ml-off {
-        margin-left: -60px;
-      }
-}
-@include media-breakpoint-up(lg) {
-    .ml-off {
-        margin-left: -95px;
-      }
-}
 
 .card-img-top {
     border-top-left-radius: 1rem;
