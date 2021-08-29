@@ -139,6 +139,18 @@ body {
   width: 65px;
 }
 
+.w-modal {
+  max-width: 500px;
+}
+
+.w-tabel {
+  width: 920px;
+}
+
+.h-sm {
+  height: 418px;
+}
+
 .arrow {
   font-size: 33px;
 }
@@ -209,8 +221,54 @@ body {
   border-radius: calc(1rem - 1px) calc(1rem - 1px) 0 0;
 }
 
+.card-image {
+  width: 96px;
+  height: 96px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-image-modal {
+  width: 165px;
+  height: 165px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .card-image-modal {
+    width: 264px;
+    height: 418px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-image-modal {
+    width: 418px;
+    height: 418px;
+  }
+}
+
 .start-18 {
   left: 18%;
+}
+
+@media (min-width: 768px) {
+  .ml-off {
+    margin-left: -60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .ml-off {
+    margin-left: -95px;
+  }
+  .ml-off-2 {
+    margin-left: -95px;
+  }
+  .mr-off {
+    margin-right: 95px;
+  }
 }
 
 .text-hide {
@@ -286,6 +344,38 @@ body {
   /* 隱藏下方捲軸 */
   overflow-x: auto;
   white-space: nowrap;
+}
+
+.nav-scroller-2 {
+  height: 468px;
+  /* 隱藏下方捲軸 */
+  overflow-y: hidden;
+  border-bottom: 0px;
+}
+
+.nav-scroller-2 .nav {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding-bottom: 10px;
+  /* 隱藏下方捲軸 */
+  overflow-x: auto;
+}
+
+.modal-dialog {
+  max-width: 500px;
+  margin: 1.75rem auto;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    max-width: 690px;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-dialog {
+    max-width: 920px;
+  }
 }
 
 .logo {
@@ -400,6 +490,27 @@ body {
   }
 }
 
+.card__4_2 {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/carl-barcelo-nqUHQkuVj3c-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 95%;
+  height: 196px;
+  border-radius: 16px;
+}
+
+@media (min-width: 768px) {
+  .card__4_2 {
+    height: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card__4_2 {
+    height: 196px;
+  }
+}
+
 .card__5 {
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/white%20round%20table%20near%20brown%20wooden%20chair.jpg");
   background-size: cover;
@@ -481,8 +592,7 @@ body {
 
 @media (min-width: 992px) {
   .card__7_2 {
-    width: 445px;
-    height: 445px;
+    height: 196px;
   }
 }
 
@@ -508,6 +618,27 @@ body {
   }
 }
 
+.card__8_2 {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 95%;
+  height: 196px;
+  border-radius: 16px;
+}
+
+@media (min-width: 768px) {
+  .card__8_2 {
+    height: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card__8_2 {
+    height: 196px;
+  }
+}
+
 .card__9 {
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/woman%20in%20black%20sports%20bra%20and%20black%20leggings%20doing%20yoga.jpg");
   background-size: cover;
@@ -527,6 +658,27 @@ body {
   .card__9 {
     width: 445px;
     height: 445px;
+  }
+}
+
+.card__9_2 {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/woman%20in%20black%20sports%20bra%20and%20black%20leggings%20doing%20yoga.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 95%;
+  height: 196px;
+  border-radius: 16px;
+}
+
+@media (min-width: 768px) {
+  .card__9_2 {
+    height: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card__9_2 {
+    height: 196px;
   }
 }
 
@@ -552,6 +704,27 @@ body {
   }
 }
 
+.card__10_2 {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/woman%20in%20white%20tank%20top%20and%20white%20leggings%20bending%20her%20body.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 196px;
+  border-radius: 16px;
+}
+
+@media (min-width: 768px) {
+  .card__10_2 {
+    height: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card__10_2 {
+    height: 196px;
+  }
+}
+
 .card__11 {
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/photo-1540206276207-3af25c08abc4.jpeg");
   background-size: cover;
@@ -569,15 +742,66 @@ body {
   }
 }
 
+.card__12_2 {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/two%20woman%20dong%20fitness%20exercise.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 95%;
+  height: 196px;
+  border-radius: 16px;
+}
+
 @media (min-width: 768px) {
-  .ml-off {
-    margin-left: -60px;
+  .card__12_2 {
+    height: 150px;
   }
 }
 
 @media (min-width: 992px) {
-  .ml-off {
-    margin-left: -95px;
+  .card__12_2 {
+    height: 196px;
+  }
+}
+
+.card__13_2 {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/woman%20doing%20yoga.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 196px;
+  border-radius: 16px;
+}
+
+@media (min-width: 768px) {
+  .card__13_2 {
+    height: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card__13_2 {
+    height: 196px;
+  }
+}
+
+.card__14_2 {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/woman%20in%20white%20tank%20top%20and%20white%20pants%20bending%20her%20body%20by%20the%20window.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 35%;
+  height: 196px;
+  border-radius: 16px;
+}
+
+@media (min-width: 768px) {
+  .card__14_2 {
+    height: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card__14_2 {
+    height: 196px;
   }
 }
 
