@@ -78,6 +78,12 @@
 .w-md {
     width: 445px!important;
 }
+.w-11 {
+    max-width: 410px;
+    @include media-breakpoint-down(lg) {
+        max-width: 330px;
+    }
+}
 .w-xs {
     width: 118px;
 }
@@ -87,11 +93,17 @@
 .w-modal {
     max-width: 500px;
 }
-.w-tabel {
+.w-tabel-bg {
     width: 920px;
+}
+.w-tabel {
+    width: 824px;
 }
 .h-sm {
     height: 418px;
+}
+.h-class {
+    height: 196px;
 }
 .arrow {
     font-size: 33px;

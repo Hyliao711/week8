@@ -40,6 +40,7 @@
 
 .swiper-slide {
   display: flex;
+  flex-shrink: 0;
   justify-content: center;
   align-items: center;
 }
@@ -75,5 +76,23 @@
     max-width: 920px;
   }
 }
-
+.nav-scroller-3 {
+  height: 264px;  /* 隱藏下方捲軸 */
+  overflow-y: hidden; 
+  border-bottom: 0px;
+}
+.nav-scroller-3 .nav {
+  flex-wrap: nowrap;
+  padding-bottom: 25px; /* 隱藏下方捲軸 */
+  overflow-x: auto;
+}
+.map-box {
+  height: 195px;
+  @include media-breakpoint-up(md) {
+    height: 323px;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 360px;
+  }
+}
 
