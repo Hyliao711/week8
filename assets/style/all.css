@@ -154,11 +154,15 @@ body {
 }
 
 .w-tabel-bg {
-  width: 920px;
+  width: 1016px;
 }
 
 .w-tabel {
-  width: 824px;
+  width: 920px;
+}
+
+.w-swiper {
+  width: 300px;
 }
 
 .h-sm {
@@ -568,6 +572,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 95%;
   height: 196px;
+  width: 300px;
   border-radius: 16px;
 }
 
@@ -674,6 +679,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 95%;
   height: 196px;
+  width: 300px;
   border-radius: 16px;
 }
 
@@ -738,6 +744,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 95%;
   height: 196px;
+  width: 300px;
   border-radius: 16px;
 }
 
@@ -802,6 +809,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 95%;
   height: 196px;
+  width: 300px;
   border-radius: 16px;
 }
 
@@ -866,6 +874,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   height: 196px;
+  width: 300px;
   border-radius: 16px;
 }
 
@@ -925,6 +934,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 95%;
   height: 196px;
+  width: 300px;
   border-radius: 16px;
 }
 
@@ -967,6 +977,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   height: 196px;
+  width: 300px;
   border-radius: 16px;
 }
 
@@ -1009,6 +1020,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 35%;
   height: 196px;
+  width: 300px;
   border-radius: 16px;
 }
 

@@ -14,6 +14,7 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/bootstrap.css">
@@ -83,9 +84,9 @@
     <h4 class="pt-12 pb-6 pt-md-16 pb-md-8 text-third text-center">本月課表</h4>
 </div>
 
-<div class="container table-responsive">
+<div class="container table-responsive" data-aos="fade-up">
     <div class="bg-primary radius-2 w-tabel-bg px-12 py-10 mx-auto">
-        <table class="table caption-top w-tabel mx-auto text-third table-light table align-middle">
+        <table class="table caption-top w-tabel mx-auto text-third table-light table align-middle table-bordered">
             <caption class="fs-6 text-white">2021 07 月</caption>
             <thead>
                 <tr class="text-center">
@@ -190,25 +191,25 @@
 
 <div class="container pb-11">
     <div class="row pb-11">
-        <div class="col-12 col-md-10 offset-md-1 col-lg-7 offset-lg-2 mb-md-2">
+        <div class="col-12 col-md-10 offset-md-1 col-lg-7 offset-lg-2 mb-md-2" data-aos="fade-right">
             <div class="d-flex text-third align-items-center">
                 <h3 class="me-2">1.</h3>
                 <p class="p-4 border border-primary radius-2 w-100">空中瑜珈、香氛開放 2 天前電話預約上課。</p>
             </div>
         </div>
-        <div class="col-12 col-md-10 offset-md-1 col-lg-7 offset-lg-3 mb-md-2">
+        <div class="col-12 col-md-10 offset-md-1 col-lg-7 offset-lg-3 mb-md-2" data-aos="fade-left">
             <div class="d-flex text-third align-items-center">
                 <h3 class="me-2">2.</h3>
                 <p class="p-4 border border-primary radius-2 w-100 bg-primary text-white">如果有特殊體質、特殊狀況，請主動告知該堂教師。</p>
             </div>
         </div>
-        <div class="col-12 col-md-10 offset-md-1 col-lg-7 offset-lg-2 mb-md-2">
+        <div class="col-12 col-md-10 offset-md-1 col-lg-7 offset-lg-2 mb-md-2" data-aos="fade-right">
             <div class="d-flex text-third align-items-center">
                 <h3 class="me-2">3.</h3>
                 <p class="p-4 border border-primary radius-2 w-100">取消預約或時間異動請於預約日前一天晚間 21:00 前告知。</p>
             </div>
         </div>
-        <div class="col-12 col-md-10 offset-md-1 col-lg-7 offset-lg-3">
+        <div class="col-12 col-md-10 offset-md-1 col-lg-7 offset-lg-3" data-aos="fade-left">
             <div class="d-flex text-third align-items-center">
                 <h3 class="me-2">4.</h3>
                 <p class="p-4 border border-primary radius-2 w-100 bg-primary text-white">運動過程中若感到任何不適，請馬上停止且與老師商量討論。</p>
@@ -267,6 +268,10 @@
       </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>

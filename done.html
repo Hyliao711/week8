@@ -14,6 +14,7 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/bootstrap.css">
@@ -110,7 +111,7 @@
 <div class="container mb-6">
     <div class="row">
         <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-            <div class="card border-primary">
+            <div class="card border-primary"  data-aos="fade-down" data-aos-duration="800">
                 <div class="card-header bg-third radius-2 text-white d-flex justify-content-between pt-4 pb-0">
                     <p class="">預約資訊</p>
                     <div>
@@ -207,6 +208,10 @@
       </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
